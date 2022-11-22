@@ -1,0 +1,28 @@
+.arquero{
+  background-color: #a0885d;
+}
+
+.defensor{
+  background-color: #8fe1f9;
+}
+
+.mediocampista{
+  background-color: #8ea760;
+}
+
+.delantero{
+  background-color: #bf2645;
+}
+
+li{
+  max-width: 300px;
+  min-width: 300px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+}

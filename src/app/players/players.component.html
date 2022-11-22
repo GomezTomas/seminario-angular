@@ -1,0 +1,10 @@
+<div class="contenedor">
+  <ul class="list-group">
+    <li *ngFor="let jugador of arqueros" class="list-group-item" [ngClass]="obtenerClasePorPosicion(jugador.posicion)">{{jugador.camiseta}} - {{jugador.nombre}} {{jugador.apellido}}</li>
+    <li *ngFor="let jugador of defensores" class="list-group-item" [ngClass]="obtenerClasePorPosicion(jugador.posicion)">{{jugador.camiseta}} - {{jugador.nombre}} {{jugador.apellido}}</li>
+
+    <li *ngFor="let jugador of mediocampistas" class="list-group-item" [ngClass]="obtenerClasePorPosicion(jugador.posicion)">{{jugador.camiseta}} - {{jugador.nombre}} {{jugador.apellido}}</li>
+
+    <li *ngFor="let jugador of delanteros" class="list-group-item" [ngClass]="obtenerClasePorPosicion(jugador.posicion)">{{jugador.camiseta}} - {{jugador.nombre}} {{jugador.apellido}}</li>
+  </ul>
+</div>
